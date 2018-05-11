@@ -2,3 +2,4 @@ include README.md
 recursive-include robo_screenshot/templates *
 recursive-include robo_screenshot/translations *
 recursive-include robo_screenshot/static *
+recursive-include robo_screenshot/bin *

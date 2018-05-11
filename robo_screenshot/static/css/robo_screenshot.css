@@ -1,1 +1,27 @@
 /* TODO: Have your plugin's CSS files generated to here. */
+#screenshot_snackbar {
+  visibility: hidden;
+  background-color: #333333;
+  color: #000000;
+  text-align: left;
+  border-radius: 2px;
+  padding: 16px;
+  z-index: 1;
+}
+
+#screenshot_snackbar.show {
+  visibility: visible;
+
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

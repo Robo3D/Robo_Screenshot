@@ -1,6 +1,6 @@
 # Robo_Screenshot
 
-**TODO:** Describe what your plugin does.
+This Plugin will use [raspi2png](https://github.com/AndrewFromMelbourne/raspi2png) to take a screenshot of the current screen.
 
 ## Setup
 
@@ -8,10 +8,3 @@ Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wik
 or manually using this URL:
 
     https://github.com/Robo3D/Robo_Screenshot/archive/master.zip
-
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
-
-## Configuration
-
-**TODO:** Describe your plugin's configuration options (if any).
